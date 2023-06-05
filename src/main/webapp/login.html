@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+
+<link href="login.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8e61631315.js" crossorigin="anonymous"></script>
+<body>
+ <!-- <form action="MyServlet" method="post" class="form">
+<p class="form-title">Sign in to your account</p>
+<div class="input-container">
+ <span>Name:</span>
+<input type="text" placeholder="username" name="login"> <br>
+<span>Password: </span>
+<input type="password" placeholder="password" name="password"> <br>
+
+ <button type="submit" class="submit">
+        Sign in
+      </button>
+</div>
+</form> -->
+
+<div class="container">
+	<div class="screen">
+		<div class="screen__content">
+			<form class="login" action="MyServlet" method="post">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" class="login__input" placeholder="username" name="login">
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" class="login__input" placeholder="password" name="password">
+				</div>
+				<button  type="submit" class="button login__submit">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+				<p class="social-login">Don't have an account yet? <a href="signup.jsp">Sign up now</a></p>
+			</form>
+			
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>		
+	</div>
+</div>
+</body>
+</html>
+
+
+
+   
